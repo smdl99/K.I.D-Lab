@@ -2314,7 +2314,7 @@ blockquote {
 
 .testimonial-image-left {
   border-bottom: 1px solid #e4ebf3;
-  padding: 80px 30px;
+  padding: 80px 12px;
   position: relative;
 }
 
@@ -2946,6 +2946,11 @@ blockquote {
   line-height: .9;
   position: relative;
   top: 315px;
+}
+
+.heading-style-h1-cvchgchgopy .is-word-4444.is-5555,
+.heading-style-h1-cvchgchgopy .is-word-4444-bxngfxn.xfngxgmfx {
+  color: var(--dark-blue--logo);
 }
 
 .button-cggggopy {
