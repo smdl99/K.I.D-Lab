@@ -1284,7 +1284,7 @@ blockquote {
 }
 
 .player_visual {
-  aspect-ratio: 1;
+  aspect-ratio: 4/5;
   border-radius: 3.5rem;
   width: 100%;
   position: relative;
