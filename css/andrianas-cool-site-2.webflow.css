@@ -1284,7 +1284,7 @@ blockquote {
 }
 
 .player_visual {
-  aspect-ratio: 4/5;
+  aspect-ratio: 1;
   border-radius: 3.5rem;
   width: 100%;
   position: relative;
@@ -5867,6 +5867,11 @@ blockquote {
     justify-content: flex-start;
     align-items: flex-start;
   }
+
+  .max-width-440-2 {
+    padding-left: 0;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -6234,6 +6239,7 @@ blockquote {
 
   .page-wrapper {
     overflow-wrap: anywhere;
+    overflow-y: auto;
     width: auto;
     max-width: 100%;
     height: auto;
@@ -7709,6 +7715,41 @@ blockquote {
   }
 }
 
+
+/* Back to Home button */
+.back-link {
+  text-decoration: none;
+  font-size: 0.85rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+/* Teaching Approach: shift text right on desktop */
+.max-width-440-2 {
+  padding-left: 3rem;
+}
+
+
+/* Social icon hover – brand blue on desktop */
+.social-link img,
+.footer_social-link img {
+  transition: filter 0.2s ease;
+}
+
+.social-link:hover img,
+.footer_social-link:hover img {
+  filter: invert(55%) sepia(80%) saturate(600%) hue-rotate(170deg) brightness(105%);
+}
+
+/* Head of Education: center paragraph relative to image */
+.testimonial-wrapper-four {
+  align-items: center;
+}
+
+/* Head of Education: shift paragraph slightly right */
+.testimonial-right {
+  padding-left: 2rem;
+}
 
 @font-face {
   font-family: 'Satoshi';
