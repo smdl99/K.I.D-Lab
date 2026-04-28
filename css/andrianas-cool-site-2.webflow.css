@@ -7989,3 +7989,80 @@ blockquote {
     top: 150px;
   }
 }
+
+/* --- Contact Modal --- */
+#contact-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.75);
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-modal__dialog {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  max-width: 460px;
+  width: 90%;
+  position: relative;
+  font-family: Satoshi, sans-serif;
+}
+
+.contact-modal__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  background: none;
+  border: none;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #000;
+}
+
+.contact-modal__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+.contact-modal__subtitle {
+  color: #666;
+  margin: 0 0 2rem;
+  font-size: 1rem;
+}
+
+.contact-modal__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-modal__link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  border: 1.5px solid #000;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.contact-modal__link:hover {
+  transform: scale(1.05);
+}
+
+.contact-modal__link--primary {
+  background: var(--green);
+  border-color: var(--green);
+}
+
+.contact-modal__icon {
+  flex-shrink: 0;
+}
