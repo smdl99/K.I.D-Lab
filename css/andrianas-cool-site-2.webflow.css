@@ -7968,8 +7968,8 @@ blockquote {
 
   .main-wrapper-test1 {
     max-width: 100%;
-    align-items: center;
-    text-align: center;
+    align-items: start;
+    text-align: left;
     padding-left: 0;
   }
 }
